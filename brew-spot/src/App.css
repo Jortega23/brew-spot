@@ -22,3 +22,10 @@ header h1 {
     text-decoration: underline;
     padding-top: 2rem;
 }
+
+.display-breweries {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
