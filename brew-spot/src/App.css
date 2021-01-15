@@ -25,10 +25,23 @@ header h1 {
 }
 
 .display-breweries {
+  min-height: 50vh;
   margin: 5rem 10rem;
   padding: 5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  border: 0;
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  outline: none;
+  margin-top: 10px;
 }
