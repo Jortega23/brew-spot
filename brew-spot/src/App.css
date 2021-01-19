@@ -9,7 +9,7 @@
 html,
 body {
   background: #000 url('./images/beer2.jpg') no-repeat center center/cover;
-  height: 100vh;
+  min-height: 100vh;
   color: #fff;
   font-family: 'Anton', sans-serif;
 }
@@ -25,13 +25,15 @@ header h1 {
 }
 
 .display-breweries {
-  min-height: 50vh;
-  margin: 5rem 10rem;
-  padding: 5rem 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.display-breweries h1 {
+  font-size: 55px;
+  text-decoration: underline;
 }
 
 input {
@@ -44,4 +46,18 @@ input {
   margin: auto;
   outline: none;
   margin-top: 10px;
+}
+
+.brewery-container {
+  background-color: rgba(51, 170, 51,  0.6) ;
+  padding: 3rem 5rem;
+  border: 3px solid black;
+}
+
+.brewery-info {
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 15px;
 }
